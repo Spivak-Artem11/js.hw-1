@@ -1,14 +1,12 @@
 let string = 'some test string'; 
 
-let some = "Some ";
-let test = "test";
-let strin = "strinG";
+const some = "s";
+const test = "ome test strin";
+const strin = "g";
 
 let one = `
     <h1>
-        ${some} 
-        ${test} 
-        ${strin}
+        ${some.toUpperCase()}${test.toLowerCase()}${strin.toUpperCase()}
     </h1>
 `;
 
@@ -43,12 +41,11 @@ let nine = nines.toFixed(1);
 console.log(nine);
 
 let tlph = {
-    product: 'iPhone',
-    price: 1000,
-    currency: 'dollar',
-    details : {
-        model: '7',
-        color: 'black'
-    }
+    product: 'iPhone'
 };
+tlph.price = 1000;
+tlph.currence = 'dollar';
+tlph['details'] = {};
+tlph['details'].model = '7';
+tlph['details'].color = "black"
 console.log(tlph);
