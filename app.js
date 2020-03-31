@@ -1,12 +1,10 @@
 let string = 'some test string'; 
-
-const some = "s";
-const test = "ome test strin";
-const strin = "g";
+let result = string[0].toUpperCase() + string.slice(1,-1)+string[string.length-1].toUpperCase();
+console.log(result)
 
 let one = `
     <h1>
-        ${some.toUpperCase()}${test.toLowerCase()}${strin.toUpperCase()}
+        ${result}
     </h1>
 `;
 
